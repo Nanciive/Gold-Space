@@ -1,0 +1,225 @@
+body {
+  font-family: 'Averia Serif Libre', serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+
+.fullscreen-intro {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9F7EB;
+    color: #609160;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .intro-content {
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+  .fullscreen-intro h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  
+  .fullscreen-intro p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* 可选：用于裁剪和适配 */
+    aspect-ratio: 16 / 9; /* 保持宽高比 */
+}
+
+  .fullscreen-text {
+    height: 100vh;
+    background-color: #609160; /* 绿色背景 */
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    font-family: 'Averia Serif Libre', serif;
+  }
+  
+  .text-content {
+    max-width: 800px;
+  }
+  
+  .fullscreen-text h2 {
+    font-size: 5em;
+    margin-bottom: 20px;
+  }
+  
+  .fullscreen-text p {
+    font-size: 1.5em;
+    line-height: 1.6;
+  }
+
+  .fullscreen-center-text {
+    height: 100vh;
+    background-color: #609160; /* 主色调绿色 */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Averia Serif Libre', serif;
+    padding: 40px;
+  }
+  
+  .centered-text h1 {
+    font-size: 2.8em;
+    line-height: 1.4;
+    max-width: 900px;
+    margin: 0 auto;
+  }  
+  
+
+.section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.logo {
+    width: 300px;   /* 或你想要的尺寸 */
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.img16-9 {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* 可选：用于裁剪和适配 */
+    aspect-ratio: 16 / 9; /* 保持宽高比 */
+}
+
+.fullscreen-center-text {
+    height: 100vh;
+    background-color: #609160;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Averia Serif Libre', serif;
+    padding: 40px;
+  }
+  
+  .centered-text h1 {
+    font-size: 2.8em;
+    line-height: 1.4;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .full-screen-text {
+    background-color: #609160;
+    color: white;
+    font-family: 'Averia Serif Libre', serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;           /* 占满一屏 */
+    text-align: center;
+  }
+  
+  .full-screen-text h1 {
+    max-width: 900px;
+    font-size: 2.8em;
+    padding: 0;
+  }
+ 
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+}
+
+.prev, .next {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 24px;
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.fullscreencenter-text {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 背景 */
+  .green-bg {
+    background-color: #F9F7EB;
+  }
+
+/* section 不留白 */
+#expectation {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+
+  #expectation-title h2 {
+    font-size: 3em;
+    text-align: center;
+    color: #609160;
+    font-family: 'Averia Serif Libre', serif; /* 如果你全站使用这个字体 */
+    margin: 2rem 0; /* 可根据需要微调 */
+  }
+
+.vertical-imgs img {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.image16-9 {
+    width: 100vw;
+    height: auto;
+    display: block; /* 避免图片之间的空白间距 */
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+  }
